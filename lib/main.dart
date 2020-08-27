@@ -1,5 +1,9 @@
+// ignore: unused_import
 import 'package:animacao/views/fade_view.dart';
+import 'package:animacao/views/flip_view.dart';
+// ignore: unused_import
 import 'package:animacao/views/pulse_view.dart';
+// ignore: unused_import
 import 'package:animacao/views/slide_view.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SlideView(),
+      home: FlipView(),
+      // home: SlideView(),
       //home: PulseView(),
       // home: FadeView(),
     );
